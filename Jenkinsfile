@@ -8,7 +8,7 @@ pipeline {
       }
 
     }
-    stage('SnarQube Analysis') {
+    stage('SonarQube Analysis') {
       environment {
         scannerHome = tool 'sonarqube'
       }
